@@ -11,14 +11,13 @@ const Projects = () => {
                 image
                 description
                 technologies used
-                
                 */}
-                <li></li>
-                <li>text</li>
-                <li>text</li>
-                <li>text</li>
-                <li>text</li>
-                <li>text</li>
+                <li>Konrad.site</li>
+                <li>OrangeBlog</li>
+                <li>Whack-a-mole</li>
+                <li>jadwigaszymanska.com</li>
+                <li>Estate Agency</li>
+                <li>fruitmashine</li>
             </ul>
         </div>
     )

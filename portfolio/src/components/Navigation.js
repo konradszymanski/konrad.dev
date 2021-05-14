@@ -1,18 +1,17 @@
 import React from 'react'
-
+import '../styles/navigation.css'
 
 
 const Navigation = () => {
 
-  //  const projects = []
+    //  const projects = []
     return (
-       
-        <div>
-             <p>Navigation</p>
+
+        <nav>
+            <p>Navigation</p>
             <ul>
-              
             </ul>
-        </div>
+        </nav>
     )
 }
 
