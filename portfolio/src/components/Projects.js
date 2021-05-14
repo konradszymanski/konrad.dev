@@ -5,8 +5,20 @@ const Projects = () => {
         <div>
             <h1>PROJECTS COMPONENT</h1>
             <ul>
-                <li>
-                </li>
+                  {/* 
+                each project need to have:
+                hyperlink
+                image
+                description
+                technologies used
+                
+                */}
+                <li></li>
+                <li>text</li>
+                <li>text</li>
+                <li>text</li>
+                <li>text</li>
+                <li>text</li>
             </ul>
         </div>
     )
