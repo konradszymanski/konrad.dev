@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const Projects = () => {
     const projects = [{
         tile: 'konrad.stie',
-        description: 'My first project made from scratch.'
+        description: 'My first project made from scratch. '
     },
     {
         tile: 'Whack-a-Mole',
