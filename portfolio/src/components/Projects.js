@@ -3,15 +3,23 @@ import React, { useState } from 'react';
 const Projects = () => {
     const projects = [{
         tile: 'konrad.stie',
-        description: 'asdasdasdasd afaf'
+        description: 'My first project made from scratch.'
     },
     {
-        tile: 'asdasdasd.stie',
+        tile: 'Whack-a-Mole',
         description: 'asdasdasassasdasd afaf'
     },
     {
-        tile: 'asdassasdasd.stie',
+        tile: 'OrangeBlog',
         description: 'asdasdasdfghjasassasdasd afaf'
+    },
+    {
+        tile: 'Paint Album',
+        description: 'Online painting album for real person'
+    },
+    {
+        tile: 'OrangeBlog',
+        description: 'Abstract orange landing page'
     }]
 
     const [project, setProject] = useState(0);
