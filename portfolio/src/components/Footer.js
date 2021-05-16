@@ -3,7 +3,8 @@ import '../styles/footer.css'
 const Footer = () => {
     return (
         <footer>
-            <p>footer example</p>
+            <p>footer example | linkedin | github </p>
+            
         </footer>
     )
 }
