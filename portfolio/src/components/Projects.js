@@ -2,16 +2,28 @@ import React, { useState } from 'react';
 
 const Projects = () => {
     const projects = [{
-        tile: 'konrad.stie',
-        description: 'asdasdasdasd afaf'
+        tile: 'Travel album/blog',
+        description: 'My first project made from scratch.',
+        link: 'https://konrad.site'
     },
     {
-        tile: 'asdasdasd.stie',
-        description: 'asdasdasassasdasd afaf'
+        tile: 'Whack-a-Mole',
+        description: 'asdasdasassasdasd afaf',
+        link: 'https://konrad-whack-a-mole.netlify.app'
     },
     {
-        tile: 'asdassasdasd.stie',
-        description: 'asdasdasdfghjasassasdasd afaf'
+        tile: 'OrangeBlog',
+        description: 'asdasdasdfghjasassasdasd afaf',
+        link: 'https://orangeblog.netlify.app'
+    },
+    {
+        tile: 'Paint Album',
+        description: 'Online painting album for real person',
+        link: 'https://jadwigaszymanska.com'
+    },
+    {
+        tile: 'Estate Agency app',
+        description: 'Estate agency aplication'
     }]
 
     const [project, setProject] = useState(0);
@@ -31,6 +43,7 @@ const Projects = () => {
             ) : (
                 ""
             )}
+            <a href={project.link} target="_blank" rel="noreferrer" >{project.link}</a>
 
         </div>
 
