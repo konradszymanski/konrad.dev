@@ -4,7 +4,8 @@ import '../styles/header.css'
 const Header = () => {
     return (
         <header>
-            <h1>Portfolio</h1>
+            <h1>Konrad</h1>
+            <h2>.dev</h2>
         </header>
     )
 }

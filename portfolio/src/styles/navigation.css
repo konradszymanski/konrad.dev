@@ -4,3 +4,8 @@ nav{
     border: 2px solid black;
     margin-bottom: 20px;
 }
+
+.testFont{
+    font-family: Vanila;
+    font-size: 20px;
+}

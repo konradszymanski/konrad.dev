@@ -9,7 +9,7 @@ const Navigation = () => {
 
         <nav>
             <p>Navigation</p>
-            <ul>
+            <ul className='testFont'>element
             </ul>
         </nav>
     )

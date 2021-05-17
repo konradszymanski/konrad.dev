@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face {
+  font-family: 'Vanila';
+  src: local('Vanila'), url(./fonts/Vanillaextract-1GZ84.ttf) format('truetype');
+}
+/* *{
+    font-family: Vanila;
+} */
+
