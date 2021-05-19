@@ -29,7 +29,7 @@ const Projects = () => {
     const [project, setProject] = useState(0);
 
     return (
-        <div>
+        <section className='projects'>
             <h1>PROJECTS COMPONENT</h1>
             <ul>
                 {projects.map((item, index) =>
@@ -45,7 +45,7 @@ const Projects = () => {
             )}
             <a href={project.link} target="_blank" rel="noreferrer" >{project.link}</a>
 
-        </div>
+        </section>
 
     )
 }
