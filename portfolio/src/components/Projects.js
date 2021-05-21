@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../styles/projects.css'
 
 const Projects = () => {
     const projects = [{
@@ -30,7 +31,7 @@ const Projects = () => {
 
     return (
         <section className='projects'>
-            <h1>PROJECTS COMPONENT</h1>
+            <h1>MY PROJECTS</h1>
             <ul>
                 {projects.map((item, index) =>
                  <li key={index} onClick={() =>  setProject(item)} >{item.tile}</li>)}

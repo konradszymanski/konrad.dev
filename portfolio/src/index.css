@@ -19,7 +19,12 @@ code {
   font-family: 'Vanila';
   src: local('Vanila'), url(./fonts/Vanillaextract-1GZ84.ttf) format('truetype');
 }
-/* *{
-    font-family: Vanila;
-} */
 
+@font-face {
+  font-family: 'BigJohn';
+  src: local('BigJohn'), url(./fonts/BigJohn.otf) format('opentype');
+}
+@font-face {
+  font-family: 'SlimJoe';
+  src: local('SlimJoe'), url(./fonts/SlimJoe.otf) format('opentype');
+}

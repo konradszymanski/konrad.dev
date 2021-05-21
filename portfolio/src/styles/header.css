@@ -5,14 +5,14 @@ header{
     background-color: #090c0d;
 
 }
-
+/* fonts BigJohn SlimJoe */
 h1{
     font-size: 10em;
     padding-top: 6px;
     height: max-content;
-    font-family: Vanila;
+    font-family: SlimJoe;
     letter-spacing: 5px;
-    background-image: linear-gradient(-45deg, #00F260, #f79d00, #000, #64f38c);
+    background-image: linear-gradient(-45deg, #82ff0d, #f79d00, #000, #64f38c);
     -webkit-background-clip: text; 
     background-clip: text; 
     color: transparent;
@@ -39,7 +39,7 @@ h1{
     font-size: 10em;
     padding-top: 6px;
     height: max-content;
-    font-family: Vanila;
+    font-family: BigJohn;
     letter-spacing: 5px;
     background-image: linear-gradient(0.1turn, red, blue, black,white );
     -webkit-background-clip: text; 
