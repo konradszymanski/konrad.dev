@@ -4,3 +4,8 @@ Footer {
     bottom: 0;
     width: 100%;
 }
+footer li{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
