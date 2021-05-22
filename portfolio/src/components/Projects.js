@@ -32,7 +32,7 @@ const Projects = () => {
 
     return (
         <section className='projects'>
-            <h1>MY PROJECTS</h1>
+            <h2>PROJECTS</h2>
             <ul>
                 {projects.map((item, index) =>
                     <li key={index} onClick={() => setProject(item)} >{item.tile}</li>)}

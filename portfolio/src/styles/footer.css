@@ -2,7 +2,6 @@ Footer {
     border: 2px solid black;
     position: relative;
     bottom: 0;
-    width: 100%;
 }
 footer li{
     padding: 20px;
