@@ -35,7 +35,7 @@ const Projects = () => {
             <h1>MY PROJECTS</h1>
             <ul>
                 {projects.map((item, index) =>
-                 <li key={index} onClick={() =>  setProject(item)} >{item.tile}</li>)}
+                    <li key={index} onClick={() => setProject(item)} >{item.tile}</li>)}
             </ul>
 
             {project ? (
@@ -46,7 +46,7 @@ const Projects = () => {
                 ""
             )}
             <a href={project.link} target="_blank" rel="noreferrer" >{project.link}</a>
-<NextSection />
+            <NextSection />
         </section>
 
     )

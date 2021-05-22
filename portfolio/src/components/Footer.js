@@ -14,8 +14,8 @@ const social = [
 
     return (
         <footer>
-        {social.map((item)=>
-        <li><a href={item.link} target='_blank' rel="noreferrer">{item.title}</a></li>
+        {social.map((item, index)=>
+        <li key={index}><a href={item.link} target='_blank' rel="noreferrer">{item.title}</a></li>
         )}
         </footer>
     )

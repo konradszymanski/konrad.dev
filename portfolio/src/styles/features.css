@@ -1,0 +1,23 @@
+.nextSection {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    margin: 10px auto;
+    animation: levitation 3s infinite;
+    position: relative;
+    display: flex;
+    
+}
+@keyframes levitation {
+    0%  { top:0px;}
+    45%  { top:10px;}
+    100% { top:0px;}
+
+}
+.nextSection img{
+    width: 100px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(329deg) brightness(105%) contrast(101%);
+}
