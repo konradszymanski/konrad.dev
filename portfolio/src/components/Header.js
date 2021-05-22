@@ -12,6 +12,9 @@ const Header = () => {
                     <h2>.dev</h2>
                 </div>
                 <nav className='introRight' >
+                    <div className='lines'>
+                <div className="line"></div>
+                </div>
                     <ul>
                         <li></li>
                         <li>Bio</li>
