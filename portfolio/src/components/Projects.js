@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/projects.css'
+import NextSection from './NextSection';
 
 const Projects = () => {
     const projects = [{
@@ -45,7 +46,7 @@ const Projects = () => {
                 ""
             )}
             <a href={project.link} target="_blank" rel="noreferrer" >{project.link}</a>
-
+<NextSection />
         </section>
 
     )
