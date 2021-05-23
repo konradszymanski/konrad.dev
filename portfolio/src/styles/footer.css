@@ -1,10 +1,15 @@
 Footer {
-    border: 2px solid black;
+    border-top: 2px solid white;
     position: relative;
     bottom: 0;
+    background-color: red;
 }
-footer li{
-    padding: 20px;
+footer ul{
     display: flex;
     justify-content: center;
 }
+footer li{
+    padding: 20px;
+    list-style: none;
+    color: white;
+} 

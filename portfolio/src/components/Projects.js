@@ -26,6 +26,10 @@ const Projects = () => {
     {
         tile: 'Estate Agency app',
         description: 'Estate agency aplication'
+    },{
+        tile: 'another example',
+        description: 'My first project made from scratch.',
+        link: 'asdasasds'
     }]
 
     const [project, setProject] = useState(0);
