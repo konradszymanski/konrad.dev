@@ -33,19 +33,21 @@ const Projects = () => {
     return (
         <section className='projects'>
             <h2>PROJECTS</h2>
-            <ul>
-                {projects.map((item, index) =>
-                    <li key={index} onClick={() => setProject(item)} >{item.tile}</li>)}
-            </ul>
+            <div className="projectGrid">
+                <ul>
+                    {projects.map((item, index) =>
+                        <li key={index} onClick={() => setProject(item)} >{item.tile}</li>)}
+                </ul>
 
-            {project ? (
-                <div id='description'>
-                    {project.description}
-                </div>
-            ) : (
-                ""
-            )}
-            <a href={project.link} target="_blank" rel="noreferrer" >{project.link}</a>
+                {project ? (
+                    <div id='description'>
+                        {project.description}
+                    </div>
+                ) : (
+                    ""
+                )}
+                <a href={project.link} target="_blank" rel="noreferrer" >{project.link}</a>
+            </div>
             <NextSection />
         </section>
 
