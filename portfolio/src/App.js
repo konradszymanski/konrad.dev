@@ -5,7 +5,6 @@ import MyStory from './components/MyStory'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
 
-
 function App() {
 
  
@@ -13,7 +12,6 @@ function App() {
     //classNameApp edited in index.css
     <div className="App" >
       <Header />
-   
       <MyStory/>
       <Projects />
       <Footer />

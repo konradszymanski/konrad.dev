@@ -13,3 +13,10 @@ footer li{
     list-style: none;
     color: white;
 } 
+footer li a img{
+    width: 50px;
+    transition: all .2s ease-in-out;
+}
+footer li a img:hover{
+    transform: scale(1.3);
+}

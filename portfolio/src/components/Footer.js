@@ -1,15 +1,19 @@
 import React from 'react'
 import '../styles/footer.css'
+import Linkedin from '../icons/linkedin.png'
+import Github from '../icons/github.png'
+
 const Footer = () => {
     const social = [
         {
             title: 'Linkedin',
             link: 'https://www.linkedin.com/in/konrad-szymanski-92790311a',
-            img: '/icons/linkedin.png'
+            image:  Linkedin
         },
         {
             title: 'GitHub',
-            link: 'https://github.com/konradszymanski'
+            link: 'https://github.com/konradszymanski',
+            image:  Github
         }
     ]
 
@@ -19,9 +23,7 @@ const Footer = () => {
                 {social.map((item, index) =>
                     <li key={index}>
                         <a href={item.link} target='_blank' rel="noreferrer">
-                            <img
-                                src={item.img} alt={item.title} rel="noreferrer" >
-                            </img>
+                            <img key={index}  src={item.image} alt={item.title} rel="noreferrer" />
                         </a>
                     </li>
                 )}

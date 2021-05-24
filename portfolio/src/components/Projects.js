@@ -4,30 +4,30 @@ import NextSection from './NextSection';
 
 const Projects = () => {
     const projects = [{
-        tile: 'Travel album/blog',
+        title: 'Travel album/blog',
         description: 'My first project made from scratch.',
         link: 'https://konrad.site'
     },
     {
-        tile: 'Whack-a-Mole',
+        title: 'Whack-a-Mole',
         description: 'asdasdasassasdasd afaf',
         link: 'https://konrad-whack-a-mole.netlify.app'
     },
     {
-        tile: 'OrangeBlog',
+        title: 'OrangeBlog',
         description: 'asdasdasdfghjasassasdasd afaf',
         link: 'https://orangeblog.netlify.app'
     },
     {
-        tile: 'Paint Album',
+        title: 'Paint Album',
         description: 'Online painting album for real person',
         link: 'https://jadwigaszymanska.com'
     },
     {
-        tile: 'Estate Agency app',
+        title: 'Estate Agency app',
         description: 'Estate agency aplication'
-    },{
-        tile: 'another example',
+    }, {
+        title: 'another example',
         description: 'My first project made from scratch.',
         link: 'asdasasds'
     }]
@@ -38,11 +38,11 @@ const Projects = () => {
         <section className='projects'>
             <h2>PROJECTS</h2>
             <div className="projectGrid">
-                <ul>
-                    {projects.map((item, index) =>
-                        <li key={index} onClick={() => setProject(item)} >{item.tile}</li>)}
+                <ul>    
+                {projects.map((item, index) =>
+                    <li key={index} onClick={() => setProject(item)} >{item.title}</li>
+                )}
                 </ul>
-
                 {project ? (
                     <div id='description'>
                         {project.description}
@@ -51,6 +51,30 @@ const Projects = () => {
                     ""
                 )}
                 <a href={project.link} target="_blank" rel="noreferrer" >{project.link}</a>
+
+            </div>
+            <div class="flip-images">
+                <div class="card-wrapper">
+                    <div class="card">
+                        <div class="frontface">
+                            <figure>
+                                {projects.map((item, index) =>
+                                    <p key={index} onClick={() => setProject(item)} >{item.title}</p>
+                                )}
+                            </figure>
+                        </div>
+                        <div class="backface">
+                            <div class="info">
+                                    <div id='description'>
+                                        {project.description}
+                                    </div>
+                             
+                                <span class="more"><a href={project.link} target="_blank" rel="noreferrer" >Visit project</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
             <NextSection />
         </section>
