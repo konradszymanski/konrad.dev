@@ -4,7 +4,6 @@ import MyStory from './components/MyStory'
 //import Navigation from './components/Navigation'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
-import TestFlip from './components/TestFlip'
 function App() {
 
  
@@ -13,7 +12,6 @@ function App() {
     <div className="App" >
       <Header />
       <MyStory/>
-      <TestFlip />
       <Projects />
       <Footer />
     </div>

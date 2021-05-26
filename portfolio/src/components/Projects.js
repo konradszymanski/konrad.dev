@@ -1,62 +1,81 @@
-import React, { useState } from 'react';
+import React from 'react'
+import ReactCardFlip from 'react-card-flip';
 import '../styles/projects.css'
 import NextSection from './NextSection';
+const projects = [{
+    title: 'Travel album/blog',
+    description: 'My first project made from scratch.',
+    link: 'https://konrad.site'
+},
+{
+    title: 'Whack-a-Mole',
+    description: 'asdasdasassasdasd afaf',
+    link: 'https://konrad-whack-a-mole.netlify.app'
+},
+{
+    title: 'OrangeBlog',
+    description: 'asdasdasdfghjasassasdasd afaf',
+    link: 'https://orangeblog.netlify.app'
+},
+{
+    title: 'Paint Album',
+    description: 'Online painting album for real person',
+    link: 'https://jadwigaszymanska.com'
+},
+{
+    title: 'Estate Agency app',
+    description: 'Estate agency aplication'
+}, {
+    title: 'another example',
+    description: 'My first project made from scratch.',
+    link: 'asdasasds'
+}]
+class Projects extends React.Component {
+    constructor() {
+        super();
+        this.state = {
+            isFlipped: false
+        };
+        this.handleClick = this.handleClick.bind(this);
+    }
 
-const Projects = () => {
-    const projects = [{
-        title: 'Travel album/blog',
-        description: 'My first project made from scratch.',
-        link: 'https://konrad.site'
-    },
-    {
-        title: 'Whack-a-Mole',
-        description: 'asdasdasassasdasd afaf',
-        link: 'https://konrad-whack-a-mole.netlify.app'
-    },
-    {
-        title: 'OrangeBlog',
-        description: 'asdasdasdfghjasassasdasd afaf',
-        link: 'https://orangeblog.netlify.app'
-    },
-    {
-        title: 'Paint Album',
-        description: 'Online painting album for real person',
-        link: 'https://jadwigaszymanska.com'
-    },
-    {
-        title: 'Estate Agency app',
-        description: 'Estate agency aplication'
-    }, {
-        title: 'another example',
-        description: 'My first project made from scratch.',
-        link: 'asdasasds'
-    }]
+    handleClick(e) {
+        e.preventDefault();
+        this.setState(prevState => ({ isFlipped: !prevState.isFlipped }));
+    }
 
-    const [project, setProject] = useState(0);
+    render() {
+        return (
+            <section className='projects' >
+                <h2>PROJECTS</h2>
+                <div className="projectGrid">
+            <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="horizontal">
 
-    return (
-        <section className='projects'>
-            <h2>PROJECTS</h2>
-            <div className="projectGrid">
-                <ul>    
+
+                {/* <div onClick={this.handleClick}>
+            This is the front of the card.
+            <button >Click to flip</button>
+          </div> */}
+<ul>
                 {projects.map((item, index) =>
-                    <li key={index} onClick={() => setProject(item)} >{item.title}</li>
+                    <li className='items' key={index} onClick={this.handleClick}>
+                     {item.title}
+                    </li>
                 )}
                 </ul>
-                {project ? (
+<div>
+                <div onClick={this.handleClick}>
                     <div id='description'>
-                        {project.description}
+                        {projects.description}
                     </div>
-                ) : (
-                    ""
-                )}
-                <a href={project.link} target="_blank" rel="noreferrer" >{project.link}</a>
-
+                <a href={projects.link} target="_blank" rel="noreferrer" >{projects.link}</a>
+                </div>
+                </div>
+            </ReactCardFlip>
             </div>
             <NextSection />
-        </section>
-
-    )
+            </section>
+        )
+    }
 }
-
 export default Projects
