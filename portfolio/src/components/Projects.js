@@ -53,29 +53,6 @@ const Projects = () => {
                 <a href={project.link} target="_blank" rel="noreferrer" >{project.link}</a>
 
             </div>
-            <div class="flip-images">
-                <div class="card-wrapper">
-                    <div class="card">
-                        <div class="frontface">
-                            <figure>
-                                {projects.map((item, index) =>
-                                    <p key={index} onClick={() => setProject(item)} >{item.title}</p>
-                                )}
-                            </figure>
-                        </div>
-                        <div class="backface">
-                            <div class="info">
-                                    <div id='description'>
-                                        {project.description}
-                                    </div>
-                             
-                                <span class="more"><a href={project.link} target="_blank" rel="noreferrer" >Visit project</a></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
             <NextSection />
         </section>
 
