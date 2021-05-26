@@ -5,4 +5,5 @@
 \
 ##### used packages:
 ⋅⋅* npm install react-scroll
-⋅⋅*  
+⋅⋅* npm  install --save react-card-flip
+⋅⋅*
