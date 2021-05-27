@@ -1,0 +1,31 @@
+[
+    {
+    "title": "Travel website #Blog",
+    "description": "My first project made from scratch.",
+    "link": "https://konrad.site",
+    "img": "public/images/bobolice.jpg"
+},
+{ 
+    "title": "Whack-a-Mole  #Game ",
+    "description": "a afaf",
+    "link": "https://konrad-whack-a-mole.netlify.app"
+},
+{
+    "title": "Orange Perspective #Landing Page",
+    "description": "sdasd afaf",
+    "link": "https://orangeblog.netlify.app"
+},
+{
+    "title": "Watercolour Art #Online Album",
+    "description": "Online painting album for real person",
+    "link": "https://jadwigaszymanska.com"
+},
+{
+    "title": "Estate Agency #Front-Back-end App",
+    "description": "Estate agency aplication"
+}, {
+    "title": "another example",
+    "description": "My first project made from scratch.",
+    "link": "asdasasds"
+}
+]
