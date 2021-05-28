@@ -1,31 +1,42 @@
 [
     {
-    "title": "Travel website #Blog",
+    "title": "My travel website",
+    "type": "#Blog",
     "description": "My first project made from scratch.",
     "link": "https://konrad.site",
-    "img": "public/images/bobolice.jpg"
+    "img": "images/konradSiteGif.gif"
 },
 { 
-    "title": "Whack-a-Mole  #Game ",
+    "title": "Whack-a-Mole",
+    "type": "#Game",
     "description": "a afaf",
-    "link": "https://konrad-whack-a-mole.netlify.app"
+    "link": "https://konrad-whack-a-mole.netlify.app",
+    "img": "images/whackGif.gif"
 },
 {
-    "title": "Orange Perspective #Landing Page",
+    "title": "Orange Perspective",
+    "type": "#Landing Page",
     "description": "sdasd afaf",
-    "link": "https://orangeblog.netlify.app"
+    "link": "https://orangeblog.netlify.app",
+    "img": "images/orangeGif.gif"
 },
 {
-    "title": "Watercolour Art #Online Album",
+    "title": "Watercolour Art ",
+    "type": "#Art Collection",
     "description": "Online painting album for real person",
-    "link": "https://jadwigaszymanska.com"
+    "link": "https://jadwigaszymanska.com",
+    "img": "images/jadwigaGif.gif"
 },
 {
-    "title": "Estate Agency #Front-Back-end App",
-    "description": "Estate agency aplication"
+    "title": "Estate Agency",
+    "type": "#Front-Back-end App",
+    "description": "Estate agency aplication",
+    "img": "images/konradsite.png"
 }, {
-    "title": "another example",
-    "description": "My first project made from scratch.",
-    "link": "asdasasds"
+    "title": "Hamburger Mate",
+    "description": "Ready to copy & paste animated hamburger menus collection",
+    "type": "#Open Source Repo",
+    "link": "https://konradszymanski.github.io/HamburgerMate.github.io/",
+    "img": "images/burgerGif.gif"
 }
 ]

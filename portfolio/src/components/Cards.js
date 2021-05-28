@@ -15,8 +15,9 @@ const Cards = ({ project }) => {
         onClick={() => setIsFlipped((prev) => !prev)}
       >
         <div className='test'>
-          <h3>{project.title}</h3>
-          <img width="100" src={project.img} alt="" />
+        <h3>{project.title}</h3>
+          <img className='thumbnail'src={project.img} alt="" />
+          <p>{project.type}</p>
         </div>
       </div>
       <div
@@ -26,7 +27,6 @@ const Cards = ({ project }) => {
         <h3>{project.title}</h3>
         <p>{project.description}</p>
         <a href={project.link} target='_blank' rel="noreferrer">link</a>
-        <img width="100" src={project.img} alt="" />
       </div>
     </ReactCardFlip>
   );
