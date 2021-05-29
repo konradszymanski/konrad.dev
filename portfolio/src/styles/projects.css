@@ -3,6 +3,9 @@
     background-image: linear-gradient( #6F00FF, red);
     text-align: center;
 }
+.projects h2{
+    font-family: SlimJoe;
+}
 .projectGrid{
     padding: 20px;
     width: 90vw;

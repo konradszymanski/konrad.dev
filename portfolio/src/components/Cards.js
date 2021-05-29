@@ -15,7 +15,7 @@ const Cards = ({ project }) => {
       >
         <div className='test'>
           <h3>{project.title}</h3>
-          <img className='thumbnail' src={project.img} alt="" />
+          <img className='thumbnail' src={project.img} alt="img" />
           <p>{project.type}</p>
         </div>
       </div>

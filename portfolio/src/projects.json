@@ -20,14 +20,14 @@
     "tech3": "css grid"
 },
 {
-    "title": "Orange Perspective",
-    "type": "#Landing Page",
-    "description": "Orange is not a fruit only ;)",
-    "link": "https://orangeblog.netlify.app",
-    "img": "images/orangeGif.gif",
-    "tech": "tailwind",
-    "tech2": "javascript"
-},
+    "title": "Estate Agency",
+    "type": "#Front-Back-end App",
+    "description": "Estate agency aplication",
+    "img": "",
+    "tech2": "Node JS",
+    "tech": "React JS",
+    "tech3": "API"
+}, 
 {
     "title": "Watercolour Art ",
     "type": "#Art Collection",
@@ -38,15 +38,16 @@
     "tech": "Responsive Design",
     "tech3": ""
 },
+
 {
-    "title": "Estate Agency",
-    "type": "#Front-Back-end App",
-    "description": "Estate agency aplication",
-    "img": "",
-    "tech2": "Node JS",
-    "tech": "React JS",
-    "tech3": "API"
-}, {
+    "title": "Orange Perspective",
+    "type": "#Landing Page",
+    "description": "Orange is not a fruit only ;)",
+    "link": "https://orangeblog.netlify.app",
+    "img": "images/orangeGif.gif",
+    "tech": "tailwind",
+    "tech2": "javascript"
+},{
     "title": "Hamburger Mate",
     "description": "Free for everyone animated hamburger menus collection",
     "type": "#Open Source Repo",
