@@ -11,12 +11,11 @@ const Cards = ({ project }) => {
   return (
     <ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
       <div
-        className='jeden'
         onClick={() => setIsFlipped((prev) => !prev)}
       >
         <div className='test'>
-        <h3>{project.title}</h3>
-          <img className='thumbnail'src={project.img} alt="" />
+          <h3>{project.title}</h3>
+          <img className='thumbnail' src={project.img} alt="" />
           <p>{project.type}</p>
         </div>
       </div>
@@ -26,7 +25,12 @@ const Cards = ({ project }) => {
       >
         <h3>{project.title}</h3>
         <p>{project.description}</p>
-        <a href={project.link} target='_blank' rel="noreferrer">link</a>
+        <ul className='projectList'>
+          <li>{project.tech}</li>
+          <li>{project.tech2}</li>
+          <li>{project.tech3}</li>
+        </ul>
+        <a className='projectLink' href={project.link} target='_blank' rel="noreferrer">visit project</a>
       </div>
     </ReactCardFlip>
   );

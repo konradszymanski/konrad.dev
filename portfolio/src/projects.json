@@ -4,39 +4,56 @@
     "type": "#Blog",
     "description": "My first project made from scratch.",
     "link": "https://konrad.site",
-    "img": "images/konradSiteGif.gif"
+    "img": "images/konradSiteGif.gif",
+    "tech": "Responsive design",
+    "tech2": "GoogleMaps Api",
+    "tech3": "JS / PHP"
 },
 { 
     "title": "Whack-a-Mole",
     "type": "#Game",
-    "description": "a afaf",
+    "description": "how quick is your reaction?",
     "link": "https://konrad-whack-a-mole.netlify.app",
-    "img": "images/whackGif.gif"
+    "img": "images/whackGif.gif",
+    "tech": "Javascript",
+    "tech2": "Flex box",
+    "tech3": "css grid"
 },
 {
     "title": "Orange Perspective",
     "type": "#Landing Page",
-    "description": "sdasd afaf",
+    "description": "Orange is not a fruit only ;)",
     "link": "https://orangeblog.netlify.app",
-    "img": "images/orangeGif.gif"
+    "img": "images/orangeGif.gif",
+    "tech": "tailwind",
+    "tech2": "javascript"
 },
 {
     "title": "Watercolour Art ",
     "type": "#Art Collection",
     "description": "Online painting album for real person",
     "link": "https://jadwigaszymanska.com",
-    "img": "images/jadwigaGif.gif"
+    "img": "images/jadwigaGif.gif",
+    "tech2": "Wordpress",
+    "tech": "Responsive Design",
+    "tech3": ""
 },
 {
     "title": "Estate Agency",
     "type": "#Front-Back-end App",
     "description": "Estate agency aplication",
-    "img": "images/konradsite.png"
+    "img": "",
+    "tech2": "Node JS",
+    "tech": "React JS",
+    "tech3": "API"
 }, {
     "title": "Hamburger Mate",
-    "description": "Ready to copy & paste animated hamburger menus collection",
+    "description": "Free for everyone animated hamburger menus collection",
     "type": "#Open Source Repo",
     "link": "https://konradszymanski.github.io/HamburgerMate.github.io/",
-    "img": "images/burgerGif.gif"
+    "img": "images/burgerGif.gif",
+    "tech": "Git / GitHub",
+    "tech2": "Css",
+    "tech3": "js"
 }
 ]

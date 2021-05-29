@@ -33,17 +33,3 @@ const Footer = () => {
 }
 
 export default Footer
-
-
-// <footer id="footer">
-//                 <!-- social icons-->
-//                 <a href="https://github.com/konradszymanski" target="_blank">
-//                     <img src="/icons/iconfinder_mark-github_298822.svg">
-//                 </a>
-//                 <a href="https://konrad.site/" target="_blank">
-//                     <img class="konradSite" src="/icons/konradSiteLogo.png">
-//                 </a>
-//                 <a href="https://www.linkedin.com/in/konrad-szymanski-92790311a/" target="_blank">
-//                     <img class="linkedIn" src="/icons/iconfinder_51-linkedin_104452.svg">
-//                 </a>
-//             </footer>
