@@ -13,10 +13,9 @@ const Header = () => {
                 </div>
                 <nav className='introRight' >
                     <div className='lines'>
-                <div className="line"></div>
-                </div>
+                        <div className="line"></div>
+                    </div>
                     <ul>
-                        <li></li>
                         <li>Bio</li>
                         <li>Projets</li>
                         <li>Contact</li>

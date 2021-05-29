@@ -7,3 +7,15 @@
     font-family: SlimJoe;
     text-align: center;
 }
+article{
+    width: 80%;
+    max-width: 1000px;
+    margin: 10px auto;
+    color: white;
+    font-size: larger;
+    font-family: SlimJoe;
+}
+
+article span{
+    font-family: BigJohn;
+}

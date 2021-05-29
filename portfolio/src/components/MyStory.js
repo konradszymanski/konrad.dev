@@ -10,7 +10,13 @@ const MyStory = () => {
         <section ref={mystory} className='bio' id='biography'>
             <h2>Bio</h2>
                 <article>
-                    <p>blabla bla bla bla bla bla  </p>
+                    <p>
+                        <span>Hello World!</span>
+                            <br />My name is Konrad Szymanski
+                    </p>
+                    <p>
+                        and I am <span>website developer</span>. 
+                    </p>
                 </article>
             <NextSection />
         </section>  
