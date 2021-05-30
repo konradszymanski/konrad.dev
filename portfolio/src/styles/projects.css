@@ -32,6 +32,7 @@
     font-family: SlimJoe;
     color: white;
     min-height: 250px;
+    cursor: pointer;
     /* height: 300px; */
 }
 .CardBack h3,

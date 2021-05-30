@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactCardFlip from "react-card-flip";
-import Data from "../projects.json";
+import Data from "../data/projects.json";
 import '../styles/projects.css'
 
 

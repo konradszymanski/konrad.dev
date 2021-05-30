@@ -16,7 +16,10 @@ const Header = () => {
                         <div className="line"></div>
                     </div>
                     <ul>
-                        <li>Bio</li>
+                        <li>
+                           
+                          bio
+                            </li>
                         <li>Projets</li>
                         <li>Contact</li>
                     </ul>
