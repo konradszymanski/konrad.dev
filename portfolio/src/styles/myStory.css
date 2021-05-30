@@ -2,20 +2,53 @@
     height: 100vh;
     width: 100%;
     background-image: linear-gradient(#090c0d, #6F00FF);
+
+}
+.bioBox{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1000px;
 }
 .bio h2{
     font-family: SlimJoe;
     text-align: center;
 }
-article{
-    width: 80%;
-    max-width: 1000px;
+.leftArticle{
     margin: 10px auto;
+    width: 60%;
     color: white;
     font-size: larger;
     font-family: SlimJoe;
 }
-
+.rightArticle{
+    width: 40%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.techIcons h3,
 article span{
     font-family: BigJohn;
+    color: white;
+}
+.techIcons{
+    text-align: center;
+    max-width: 300px;
+}
+.techIcons h3{
+    margin: 10px 0;
+}
+.techIcons img{
+    width: 45px;
+    background-image: linear-gradient(white, lightblue );
+    padding: 5px;
+    border-radius: 50px;
+    margin: 5px;
+    transition: all .2s ease-in-out; 
+}
+.techIcons img:hover,
+.techIcons img:focus{
+    transform: scale(1.4); 
+    background-image: linear-gradient(lightblue, rgb(13, 13, 14) );
 }
