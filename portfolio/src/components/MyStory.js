@@ -23,9 +23,17 @@ const MyStory = () => {
                         I started my first job in IT industry in february <span>2021</span><span className='coma'>,</span> after transformation from gambling industry.
                     </p>
                     <p>
-                        Apart of coding<span className='coma'>,</span> I love do sports and David Fincher's movie's but the most: exploring <span>medieval castles.</span>  
+                        Apart of <span>coding</span> and <span>learning</span><span className='coma'>,</span> I love do sports and David Fincher's movie's but the most: exploring <span>medieval castles.</span>  
                     </p> 
-                    <p>You can reach me at <span>LinkedIn</span></p>
+                    <p>You can reach me at 
+                        <span>
+                            <a 
+                            href='https://www.linkedin.com/in/konrad-szymanski-92790311a/'
+                            target='_blank'
+                            rel="noreferrer"> LinkedIn
+                            </a>
+                        </span>
+                    </p>
                 </article>
                 <article className='rightArticle'>
                     <Circle />
