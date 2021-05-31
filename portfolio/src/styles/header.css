@@ -67,7 +67,6 @@ h1{
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
-    /* border-right: 1px solid #7dcd85; */
 }
 .introLeft h1,
 .introLeft h2{

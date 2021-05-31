@@ -1,20 +1,35 @@
 import React from 'react'
 
 const Circle = () => {
+     const skills = [
+          {
+               icon: 'techIcons/html5.png'
+          },{
+               icon: 'techIcons/css3.png'
+          },{
+               icon: 'techIcons/bootstrap.png'
+          },{
+               icon: 'techIcons/tailwind-css.png'
+          },{
+               icon: 'techIcons/javascript.png'
+          },{
+               icon: 'techIcons/react.png'
+          },{
+               icon: 'techIcons/rwdFreepik.png'
+          },{
+               icon: 'techIcons/git.png'
+          },{
+               icon: 'techIcons/shopify.png'
+          },{
+               icon: 'techIcons/wordpress-icon.png'
+          },
+     ]
      return (
           <div className='techIcons'>
                <h3>my skills</h3>
-               <img src="techIcons/html5.png" alt="" />
-               <img src="techIcons/css3.png" alt="" />
-               <img src="techIcons/bootstrap.png" alt="" />
-               <img src="techIcons/tailwind-css.png" alt="" />
-               <img src="techIcons/javascript.png" alt="" />
-               <img src="techIcons/react.png" alt="" />
-               <img src="techIcons/rwdFreepik.png" alt="" />
-               <img src="techIcons/git.png" alt="" />
-               <img src="techIcons/shopify.png" alt="" />
-               <img src="techIcons/wordpress-icon.png" alt="" />
-
+                    {skills.map((item, index) =>
+                         <img key={index} src={item.icon} alt='skillsIcons' />
+                    )}
           </div>
      )
 }
