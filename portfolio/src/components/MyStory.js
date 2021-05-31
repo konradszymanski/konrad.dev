@@ -14,11 +14,18 @@ const MyStory = () => {
                 <article className='leftArticle'>
                     <p>
                         <span>Hello World!</span>
-                            <br />My name is Konrad Szymanski
+                            <br />My name is <span>Konrad</span> Szymanski.
                     </p>
                     <p>
-                        and I am <span>website developer</span>. 
+                        I am creative front-end <span>website developer and designer</span> based in uk. 
                     </p>
+                    <p>
+                        I started my first job in IT industry in february <span>2021</span><span className='coma'>,</span> after transformation from gambling industry.
+                    </p>
+                    <p>
+                        Apart of coding<span className='coma'>,</span> I love do sports and David Fincher's movie's but the most: exploring <span>medieval castles.</span>  
+                    </p> 
+                    <p>You can reach me at <span>LinkedIn</span></p>
                 </article>
                 <article className='rightArticle'>
                     <Circle />

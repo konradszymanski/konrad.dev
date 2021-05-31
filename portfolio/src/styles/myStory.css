@@ -23,7 +23,6 @@
 }
 .rightArticle{
     width: 40%;
-    align-items: center;
     display: flex;
     justify-content: center;
 }
@@ -50,4 +49,7 @@ article span{
 .techIcons img:hover,
 .techIcons img:focus{
     transform: scale(1.4); 
+}
+.coma{
+    font-family: initial;
 }
