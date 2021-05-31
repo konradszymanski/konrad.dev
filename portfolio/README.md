@@ -7,3 +7,4 @@
 ⋅⋅* npm install react-scroll
 ⋅⋅* npm  install --save react-card-flip
 ⋅⋅* npm install --save react-router-hash-link
+⋅⋅* npm install  react-router-dom

@@ -18,7 +18,7 @@ const Footer = () => {
     ]
 
     return (
-        <footer>
+        <footer id='footer'>
             <ul>
                 {social.map((item, index) =>
                     <li key={index}>

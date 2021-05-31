@@ -88,16 +88,22 @@ h1{
 .introRight:hover{
     color: #7dcd85;
 }
-  nav ul li{
-      color: white;
-      font-family: SlimJoe;
-      font-size: 35px;
-      letter-spacing: 5px;
-      font-weight: 700;
-      padding: 10px;
-      display: flex;
-      cursor: pointer;
-  }
-  nav ul li:hover{
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: SlimJoe;
+    font-size: 35px;
+    letter-spacing: 5px;
+    font-weight: 700;
+    padding: 10px;
+    display: flex;
+    cursor: pointer;
+}
+
+  nav ul li a:hover{
       color: red;
+      list-style: none;
   }

@@ -8,12 +8,10 @@ const Circle = () => {
                <img src="techIcons/css3.png" alt="" />
                <img src="techIcons/bootstrap.png" alt="" />
                <img src="techIcons/tailwind-css.png" alt="" />
-             
                <img src="techIcons/javascript.png" alt="" />
                <img src="techIcons/react.png" alt="" />
                <img src="techIcons/rwdFreepik.png" alt="" />
                <img src="techIcons/git.png" alt="" />
-            
                <img src="techIcons/shopify.png" alt="" />
                <img src="techIcons/wordpress-icon.png" alt="" />
 

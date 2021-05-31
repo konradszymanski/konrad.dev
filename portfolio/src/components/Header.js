@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/header.css'
+import Navigation from './Navigation';
 import NextSection from './NextSection';
 
 
@@ -15,14 +16,7 @@ const Header = () => {
                     <div className='lines'>
                         <div className="line"></div>
                     </div>
-                    <ul>
-                        <li>
-                           
-                          bio
-                            </li>
-                        <li>Projets</li>
-                        <li>Contact</li>
-                    </ul>
+                  <Navigation />
                 </nav>
             </section>
             <NextSection />
