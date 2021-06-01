@@ -43,6 +43,9 @@ article span a{
 .techIcons h3{
     margin: 10px 0;
 }
+.helloWorld{
+    margin-bottom: 10px;
+}
 .techIcons img{
     width: 45px;
     background-image: linear-gradient(white, lightblue );
@@ -58,6 +61,30 @@ article span a{
 .coma{
     font-family: initial;
 }
+ /* RESPONSIVE */
+ @media only screen and (max-width: 768px) {
+  .bio{
+    height: auto;
+    margin-bottom: -10px;
+  }
+  .bioBox {
+    width: 95%;
+    flex-direction: column;
+  }
+  .rightArticle,
+  .leftArticle{
+    width: 80%;
+  }
+  .rightArticle{
+    margin: 0 auto;
+  }
+  .techIcons{
+    max-width: 75%;
+  }
+  .CardBack, .test, .projectGrid ul li{
+    height: 250px;
+  }
+} 
 
 /* CIRCLE  */
 /*
@@ -128,3 +155,4 @@ article span a{
   .CircularProgressbar.CircularProgressbar-inverted .CircularProgressbar-trail {
     stroke: transparent;
   }
+

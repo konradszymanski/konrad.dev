@@ -69,5 +69,13 @@ padding: 10px 0;
 }
 
 
-/* ////////////////// */
-
+/*RESPONSIVE */
+ @media only screen and (max-width: 768px) {
+    .Projects{
+        grid-template-columns: none;
+    }
+    .projects h2{
+        font-size: 4em;
+        padding: 20px 0;
+    }
+  }

@@ -106,3 +106,28 @@ nav ul li a{
       color: red;
       list-style: none;
   }
+
+  /* RESPONSIVE */
+   @media only screen and (max-width: 768px) {
+    #starter{
+        flex-direction: column;
+    }
+    .introLeft{
+        width: 100vw;
+    }
+    .introLeft h1{
+       font-size: 5em;
+    }
+    nav{
+        margin-top: 20px;
+    }
+    .introLeft h2{
+        font-size: 4em;
+    }
+    .techIcons h3{
+        margin: 13px 0;
+        border-top: 1px solid white;
+        padding-top: 13px;
+    }
+
+  } 

@@ -20,7 +20,7 @@ const MyStory = () => {
                         I am creative front-end <span>website developer and designer</span> based in uk. 
                     </p>
                     <p>
-                        I started my first job in IT industry in february <span>2021</span><span className='coma'>,</span> after transformation from gambling industry.
+                        I started my first job in <span>IT</span> industry in february <span>2021</span><span className='coma'>,</span> after transformation from gambling industry.
                     </p>
                     <p>
                         Apart of <span>coding</span> and <span>learning</span><span className='coma'>,</span> I love do sports and David Fincher's movie's but the most: exploring <span>medieval castles.</span>  
