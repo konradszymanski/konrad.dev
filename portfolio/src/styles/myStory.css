@@ -26,6 +26,7 @@
     display: flex;
     justify-content: center;
 }
+.helloWorld,
 .techIcons h3,
 article span{
     font-family: BigJohn;
@@ -43,9 +44,7 @@ article span a{
 .techIcons h3{
     margin: 10px 0;
 }
-.helloWorld{
-    margin-bottom: 10px;
-}
+
 .techIcons img{
     width: 45px;
     background-image: linear-gradient(white, lightblue );
@@ -73,13 +72,16 @@ article span a{
   }
   .rightArticle,
   .leftArticle{
-    width: 80%;
+    width: 90%;
   }
   .rightArticle{
     margin: 0 auto;
   }
   .techIcons{
     max-width: 75%;
+  }
+  .techIcons img {
+    width: 50px;
   }
 } 
 

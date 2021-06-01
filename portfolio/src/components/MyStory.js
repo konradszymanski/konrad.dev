@@ -12,25 +12,26 @@ const MyStory = () => {
             <h2>Bio</h2>
             <div className='bioBox' >
                 <article className='leftArticle'>
+                    
+                    <p className='helloWorld'>Hello World!</p>
                     <p>
-                        <span>Hello World!</span>
-                            <br />My name is <span>Konrad</span> Szymanski.
+                        <br />My name is <span>Konrad</span> Szymanski.
                     </p>
                     <p>
-                        I am creative front-end <span>website developer and designer</span> based in uk. 
+                        I am creative front-end <span>website developer and designer</span> based in uk.
                     </p>
                     <p>
                         I started my first job in <span>IT</span> industry in february <span>2021</span><span className='coma'>,</span> after transformation from gambling industry.
                     </p>
                     <p>
-                        Apart of <span>coding</span> and <span>learning</span><span className='coma'>,</span> I love do sports and David Fincher's movie's but the most: exploring <span>medieval castles.</span>  
-                    </p> 
-                    <p>You can reach me at 
+                        Apart of <span>coding</span> and <span>learning</span><span className='coma'>,</span> I love do sports and David Fincher's movie's but the most: exploring <span>medieval castles.</span>
+                    </p>
+                    <p>You can reach me at
                         <span>
-                            <a 
-                            href='https://www.linkedin.com/in/konrad-szymanski-92790311a/'
-                            target='_blank'
-                            rel="noreferrer"> LinkedIn
+                            <a
+                                href='https://www.linkedin.com/in/konrad-szymanski-92790311a/'
+                                target='_blank'
+                                rel="noreferrer"> LinkedIn
                             </a>
                         </span>
                     </p>
@@ -40,7 +41,7 @@ const MyStory = () => {
                 </article>
             </div>
             <NextSection />
-        </section>  
+        </section>
     )
 }
 
