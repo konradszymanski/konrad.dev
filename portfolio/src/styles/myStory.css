@@ -81,9 +81,6 @@ article span a{
   .techIcons{
     max-width: 75%;
   }
-  .CardBack, .test, .projectGrid ul li{
-    height: 250px;
-  }
 } 
 
 /* CIRCLE  */

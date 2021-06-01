@@ -111,6 +111,7 @@ nav ul li a{
    @media only screen and (max-width: 768px) {
     #starter{
         flex-direction: column;
+        padding-top: 20vh;
     }
     .introLeft{
         width: 100vw;
