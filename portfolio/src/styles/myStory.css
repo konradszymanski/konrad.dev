@@ -77,12 +77,20 @@ article span a{
   .rightArticle{
     margin: 0 auto;
   }
+  article.rightArticle {
+    margin-top: 10px;
+  }
   .techIcons{
     max-width: 75%;
   }
   .techIcons img {
     width: 50px;
   }
+  .techIcons h3{
+    margin: 17px 0;
+    border-top: 1px solid white;
+    padding-top: 16px;
+}
 } 
 
 /* CIRCLE  */
