@@ -2,7 +2,7 @@ Footer {
     border-top: 2px solid white;
     position: relative;
     bottom: 0;
-    background-color: red;
+    background-color: #9A031E;
 }
 footer ul{
     display: flex;
@@ -12,12 +12,10 @@ footer li{
     padding: 20px;
     list-style: none;
 } 
-
 footer li a img{
     width: 50px;
     transition: all .2s ease-in-out;
     filter: invert(100%) sepia(0%) saturate(7485%) hue-rotate(234deg) brightness(103%) contrast(99%);
- 
 }
 footer li a img:hover{
     transform: scale(1.3);

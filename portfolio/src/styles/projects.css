@@ -1,7 +1,8 @@
 .projects{
     min-height: 100vh;
-    background-image: linear-gradient( #6F00FF, red);
+    background-image: linear-gradient( #6F00FF, #9A031E);
     text-align: center;
+    padding-bottom: 10px;
 }
 .projects h2{
     font-family: SlimJoe;
