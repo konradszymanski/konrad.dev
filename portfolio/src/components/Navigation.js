@@ -2,18 +2,20 @@ import React from 'react'
 import '../styles/navigation.css'
 import { Link } from 'react-scroll'
 
+
+
 const Navigation = () => {
 
     return (
         <nav>
             <ul>
-                <li>
+                <li id='navList1' >
                     <Link to={'biography'}>Bio</Link>
                 </li>
-                <li>
+                <li id='navList2' >
                     <Link to={'projects'}>Projects</Link>
                 </li>
-                <li>
+                <li id='navList3' >
                     <Link to={'footer'}>Contact</Link>
                 </li>
             </ul>
@@ -23,13 +25,3 @@ const Navigation = () => {
 
 export default Navigation
 
-    // <Link 
-    // activeClass="active" 
-    // to="test1" 
-    // spy={true} 
-    // smooth={true} 
-    // offset={50} 
-    // duration={500} 
-    // onSetActive={this.handleSetActive}>
-    //       Test 1
-    // </Link>

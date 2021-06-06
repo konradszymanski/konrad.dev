@@ -34,15 +34,14 @@
     color: white;
     min-height: 250px;
     cursor: pointer;
-    /* height: 300px; */
 }
 .CardBack h3,
 .CardBack p{
     margin-bottom: 10px;
 }
 .thumbnail{
- width: 100%;
-padding: 10px 0;
+    width: 100%;
+    padding: 10px 0;
 }
 .projectLink{
     border: 1px solid white;
@@ -78,5 +77,12 @@ padding: 10px 0;
     .projects h2{
         font-size: 4em;
         padding: 20px 0;
+    }
+  }
+  @media only screen and (min-width: 1400px) {
+    .CardBack,
+    .test,
+    .projectGrid ul li{
+        height: 300px;
     }
   }

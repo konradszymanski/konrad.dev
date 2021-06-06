@@ -31,7 +31,7 @@ const MyStory = () => {
                             <a
                                 href='https://www.linkedin.com/in/konrad-szymanski-92790311a/'
                                 target='_blank'
-                                rel="noreferrer"> LinkedIn
+                                rel="noreferrer"> LinkedIn.
                             </a>
                         </span>
                     </p>
