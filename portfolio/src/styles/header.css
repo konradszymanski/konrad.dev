@@ -123,7 +123,10 @@ nav ul li a{
         font-size: 4em;
     }
   } 
-#element3{
+#element1,  
+#element2,
+#element3,
+#element4{
    opacity: 0;
    transition: opacity 1s ease-in-out;
    -moz-transition: opacity 1s ease-in-out;

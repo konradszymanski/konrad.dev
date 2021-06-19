@@ -9,6 +9,16 @@
     "tech2": "GoogleMaps Api",
     "tech3": "JS / PHP"
 },
+
+{
+    "title": "Estate Agency",
+    "type": "#Front-Back-end App",
+    "description": "Estate agency aplication",
+    "img": "images/estate.gif",
+    "tech2": "Node JS",
+    "tech": "React JS",
+    "tech3": "API"
+}, 
 { 
     "title": "Whack-a-Mole",
     "type": "#Game",
@@ -20,15 +30,6 @@
     "tech3": "css grid"
 },
 {
-    "title": "Estate Agency",
-    "type": "#Front-Back-end App",
-    "description": "Estate agency aplication",
-    "img": "",
-    "tech2": "Node JS",
-    "tech": "React JS",
-    "tech3": "API"
-}, 
-{
     "title": "Watercolour Art ",
     "type": "#Art Collection",
     "description": "Online painting album for real person",
@@ -38,7 +39,6 @@
     "tech": "Responsive Design",
     "tech3": "Elementor"
 },
-
 {
     "title": "Orange Perspective",
     "type": "#Landing Page",
