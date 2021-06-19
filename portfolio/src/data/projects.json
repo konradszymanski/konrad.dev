@@ -36,7 +36,7 @@
     "img": "images/jadwigaGif.gif",
     "tech2": "Wordpress",
     "tech": "Responsive Design",
-    "tech3": ""
+    "tech3": "Elementor"
 },
 
 {
@@ -46,7 +46,8 @@
     "link": "https://orangeblog.netlify.app",
     "img": "images/orangeGif.gif",
     "tech": "tailwind",
-    "tech2": "javascript"
+    "tech2": "javascript",
+    "tech3": "html"
 },{
     "title": "Hamburger Mate",
     "description": "Free for everyone animated hamburger menus collection",
