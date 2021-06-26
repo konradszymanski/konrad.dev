@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/header.css'
 import Navigation from './Navigation';
 import NextSection from './NextSection';
-import Canvas from './Canvas'
+
 
 setTimeout(function () {
     document.getElementById('element1').style.opacity = '1';
@@ -20,7 +20,7 @@ setTimeout(function () {
 
 const Header = () => {
     return (
-        <header>  
+        <header> 
             <section id='starter'>
                 <div className='introLeft'>
                     <h1 id='element1'>Konrad</h1>
@@ -35,13 +35,12 @@ const Header = () => {
                     </div>
                 </nav>
             </section>
-            <div id='element4'>
+            <div id='element4'>        
                 <NextSection />
-              
             </div>
         </header>
     )
 }
-// canvas code based on YT - Franks laboratory
+
 
 export default Header
