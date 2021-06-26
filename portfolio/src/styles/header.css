@@ -108,7 +108,25 @@ nav ul li a{
   }
 
   /* RESPONSIVE */
+  @media only screen and (max-width: 1360px) {
+    .introLeft h1,
+    .introLeft h2{
+        font-size: 7em;
+     }
+  }
+  @media only screen and (max-width: 1024px) {
+    .introLeft h1,
+    .introLeft h2{
+        font-size: 6em;
+     }
+     .introLeft {
+        width: 70vw;
+     }
+}
    @media only screen and (max-width: 768px) {
+    .introLeft {
+        width: 55vw;
+     }
     #starter{
         flex-direction: column;
         padding-top: 20vh;
