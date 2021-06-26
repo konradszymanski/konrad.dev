@@ -2,7 +2,7 @@ import Header from './components/Header'
 import MyStory from './components/MyStory'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
-import React, { Component } from 'react'
+
 import StarfieldAnimation from 'react-starfield-animation'
 function App() {
   return (
