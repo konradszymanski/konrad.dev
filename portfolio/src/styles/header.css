@@ -85,6 +85,7 @@ h1{
     align-content: flex-start;
     justify-content: space-around;
     align-items: center;
+    z-index: 999;
 }
 .introRight:hover{
     color: #7dcd85;
