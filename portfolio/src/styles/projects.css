@@ -47,9 +47,9 @@
     border: 1px solid white;
     border-radius: 20px;
     padding: 5px;
-    padding-inline: 10px;
+    padding-inline: 12px;
     margin: 10px;
-    font-family: BigJohn;
+    /* font-family: BigJohn; */
     text-decoration: none;
     color: #6F00FF;
     font-weight: bold;
@@ -59,11 +59,7 @@
     right: 50%;
     transform: translateX(50%);
     width: max-content;
-    height: 20px;
-    /* display: flex;
-    align-content: center;
-    align-items: flex-end; */
-    line-height: 80%;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
