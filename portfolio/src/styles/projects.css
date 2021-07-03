@@ -60,9 +60,10 @@
     transform: translateX(50%);
     width: max-content;
     height: 20px;
-    display: flex;
+    /* display: flex;
     align-content: center;
-    align-items: flex-end;
+    align-items: flex-end; */
+    line-height: 80%;
     
 }
 
