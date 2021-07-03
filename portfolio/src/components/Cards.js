@@ -30,7 +30,7 @@ const Cards = ({ project }) => {
           <li>{project.tech2}</li>
           <li>{project.tech3}</li>
         </ul>
-        <a className='projectLink' href={project.link} target='_blank' rel="noreferrer">visit project</a>
+        <a className='projectLink' href={project.link} target='_blank' rel="noreferrer">go to project</a>
       </div>
     </ReactCardFlip>
   );
