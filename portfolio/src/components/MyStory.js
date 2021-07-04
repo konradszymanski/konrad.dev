@@ -18,15 +18,15 @@ const MyStory = () => {
                         <br />My name is <span>Konrad</span> Szymanski.
                     </p>
                     <p>
-                        I am creative front-end <span>website developer and designer</span> based in uk.
+                        I am a creative front-end <span>web developer and designer</span> based in UK.
                     </p>
                     <p>
-                        I started my first job in <span>IT</span> industry in february <span>2021</span><span className='coma'>,</span> after transformation from gambling industry.
+                        I started my first job in the <span>IT</span> industry in February <span>2021</span><span className='coma'>,</span> after moving from the gambling industry.
                     </p>
                     <p>
-                        Apart of <span>coding</span> and <span>learning</span><span className='coma'>,</span> I love do sports and David Fincher's movie's but the most: exploring <span>medieval castles.</span>
+                        Apart from <span>coding</span> and <span>learning</span><span className='coma'>,</span> I love to engage in sports and watch David Fincher's movies<span className='coma'>,</span> and I enjoy exploring <span>medieval castles.</span>
                     </p>
-                    <p>You can reach me at
+                    <p>You can reach me on
                         <span>
                             <a
                                 href='https://www.linkedin.com/in/konrad-szymanski-92790311a/'
