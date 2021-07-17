@@ -1,7 +1,7 @@
 [
     {
     "title": "My travel website",
-    "type": "#Blog",
+    "type": "#Blog / Hostgator",
     "description": "My first project made from scratch.",
     "link": "https://konrad.site",
     "img": "images/konradSiteGif.gif",
@@ -12,8 +12,9 @@
 
 {
     "title": "Estate Agency",
-    "type": "#Front-Back-end App",
+    "type": "#Front-Back-end App / Heroku",
     "description": "Estate agency aplication",
+    "link": "https://estateagencyproject.herokuapp.com",
     "img": "images/estate.gif",
     "tech2": "Node JS",
     "tech": "React JS",
@@ -21,13 +22,13 @@
 }, 
 { 
     "title": "Whack-a-Mole",
-    "type": "#Game",
+    "type": "#Game / Netlify",
     "description": "how quick is your reaction?",
     "link": "https://konrad-whack-a-mole.netlify.app",
     "img": "images/whackGif.gif",
     "tech": "Javascript",
-    "tech2": "Flex box",
-    "tech3": "css grid"
+    "tech2": "Flex Box",
+    "tech3": "Css Grid"
 },
 {
     "title": "Watercolour Art ",
@@ -41,7 +42,7 @@
 },
 {
     "title": "Orange Perspective",
-    "type": "#Landing Page",
+    "type": "#Landing Page / Netlify",
     "description": "Orange is not a fruit only ;)",
     "link": "https://orangeblog.netlify.app",
     "img": "images/orangeGif.gif",
@@ -55,7 +56,16 @@
     "link": "https://konradszymanski.github.io/HamburgerMate.github.io/",
     "img": "images/burgerGif.gif",
     "tech": "Git / GitHub",
-    "tech2": "Css",
-    "tech3": "js"
+    "tech2": "Javasript",
+    "tech3": "css"
+},{
+    "title": "#150 JavaScript excersises",
+    "description": "This is my learning path of JavaScript. ALl the task are coded from scratch.",
+    "type": "#Excersises / Netlify",
+    "link": "https://javascript-basics.netlify.app/",
+    "img": "images/excersizes.png",
+    "tech": "javascript",
+    "tech2": "bootstrap",
+    "tech3": "html / css"
 }
 ]
