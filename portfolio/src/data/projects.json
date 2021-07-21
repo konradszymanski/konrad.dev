@@ -59,8 +59,8 @@
     "tech2": "Javasript",
     "tech3": "css"
 },{
-    "title": "#150 JavaScript excersises",
-    "description": "This is my learning path of JavaScript. ALl the task are coded from scratch.",
+    "title": "#150 JS excersises",
+    "description": "My learning path of JS. Task are coded from scratch.",
     "type": "#Excersises / Netlify",
     "link": "https://javascript-basics.netlify.app/",
     "img": "images/excersizes.png",
