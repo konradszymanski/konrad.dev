@@ -1,7 +1,6 @@
 ## My React portfolio :) 
 \
 [Check my work!](https://konrad-dev.vercel.app/)
-\
 ##### used packages:
 ⋅⋅* npm install react-scroll\
 ⋅⋅* npm  install --save react-card-flip\
