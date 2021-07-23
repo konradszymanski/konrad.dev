@@ -14,6 +14,10 @@
     margin: 0 auto;
     
 }
+/* LAST PROJECT CENTERED  */
+#projects > div > div:nth-child(7){
+   grid-column-end:3;
+}
 
 .Projects{
     display: grid;
@@ -81,6 +85,9 @@
         font-size: 4em;
         padding: 20px 0;
     }
+    #projects > div > div:nth-child(7){
+        grid-column-end: unset;
+     }
   }
   @media only screen and (min-width: 1400px) {
     .CardBack,
