@@ -15,16 +15,22 @@ const MyStory = () => {
                     
                     <p className='helloWorld'>Hello World!</p>
                     <p>
-                        <br />My name is <span>Konrad</span> Szymanski.
+                        <br />My name is <span>Konrad</span> Szymanski. Based in UK.
                     </p>
                     <p>
-                        I am a creative front-end <span>web developer and designer</span> based in UK.
+                      Self-motivated, determined front-end <span>web developer </span>  with a high level of experience working on multiple projects. Offering several years of expertise in fast-paced departments. I have a strong ability to work closely with people of all levels, different backgrounds and personalities. 
+                    </p>
+                    <p> 
+                      Newly graduated web developer offering enthusiasm and understanding of various programming languages. 
                     </p>
                     <p>
-                        I started my first job in the <span>IT</span> industry in February <span>2021</span><span className='coma'>,</span> after moving from the gambling industry.
+                        Innovative<span className='coma'>,</span> proactive<span className='coma'>,</span> and capable of developing elegant and application designs for demanding clients. Talented in project management<span className='coma'>,</span> team leadership and independent problem-solving abilities. Highly organised<span className='coma'>,</span> proficient at multitasking and enhancing designs and verifying code.
                     </p>
                     <p>
-                        Apart from <span>coding</span> and <span>learning</span><span className='coma'>,</span> I love to engage in sports and watch David Fincher's movies<span className='coma'>,</span> and I enjoy exploring <span>medieval castles.</span>
+                        Engaged in sports<span className='coma'>,</span> absolutely delighted of David Fincher's movies<span className='coma'>,</span> fascinated by medieval castles
+                    </p>
+                    <p>
+                        I am looking to join a company where the opportunity for growth and personal development is embraced.
                     </p>
                     <p>You can reach me on
                         <span>
