@@ -6,18 +6,24 @@
     overflow: hidden;
     outline:none;
     margin: 10px auto;
-    animation: levitation 3s infinite;
+    animation: levitation 4s infinite;
     position: relative;
     display: flex;
+    opacity: .7;
+    transition: 1s all;
     
+}
+.nextSection img:hover{
+    width: 60px;
+    transition: 1s all;
 }
 @keyframes levitation {
     0%  { top:0px;}
-    45%  { top:10px;}
+    45%  { top:30px;}
     100% { top:0px;}
 
 }
 .nextSection img{
-    width: 100px;
+    width: 80px;
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(329deg) brightness(105%) contrast(101%);
 }
