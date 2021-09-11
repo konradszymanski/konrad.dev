@@ -9,17 +9,17 @@
     "tech2": "GoogleMaps Api",
     "tech3": "JS / PHP"
 },
-
 {
-    "title": "Estate Agency",
-    "type": "#Front-Back-end App / Heroku",
-    "description": "Estate agency aplication",
-    "link": "https://estateagencyproject.herokuapp.com",
-    "img": "images/estate.gif",
-    "tech2": "Node JS",
-    "tech": "React JS",
-    "tech3": "API"
-}, 
+    "title": "Crypto Comparer",
+    "type": "#Comparer / GH Pages",
+    "description": "Check your favourite crypto..",
+    "link": "https://konradszymanski.github.io/Crypto-Compare/",
+    "img": "images/cryptoCompare.png",
+    "tech": "Coingecko API",
+    "tech2": "Responsive Design",
+    "tech3": "Html / Css / Js"
+},
+
 { 
     "title": "Whack-a-Mole",
     "type": "#Game / Netlify",
@@ -31,8 +31,18 @@
     "tech3": "Css Grid"
 },
 {
+    "title": "Estate Agency",
+    "type": "#Front-Back-end App / Heroku",
+    "description": "Estate agency aplication",
+    "link": "https://estateagencyproject.herokuapp.com",
+    "img": "images/estate.gif",
+    "tech2": "Node JS",
+    "tech": "React JS",
+    "tech3": "API"
+}, 
+{
     "title": "Watercolour Art ",
-    "type": "#Art Collection",
+    "type": "#Art Collection / Wordpress",
     "description": "Online painting album for real person",
     "link": "https://jadwigaszymanska.com",
     "img": "images/jadwigaGif.gif",
@@ -52,7 +62,7 @@
 },{
     "title": "Hamburger Mate",
     "description": "Free for everyone animated hamburger menus collection",
-    "type": "#Open Source Repo",
+    "type": "#Open Source Repo/ gh pages",
     "link": "https://konradszymanski.github.io/HamburgerMate.github.io/",
     "img": "images/burgerGif.gif",
     "tech": "Git / GitHub",

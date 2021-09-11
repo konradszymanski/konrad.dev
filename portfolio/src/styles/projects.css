@@ -15,9 +15,9 @@
     
 }
 /* LAST PROJECT CENTERED  */
-#projects > div > div:nth-child(7){
+/* #projects > div > div:nth-child(8){
    grid-column-end:3;
-}
+} */
 
 .Projects{
     display: grid;
