@@ -14,19 +14,18 @@
 .bio h2{
     font-family: SlimJoe;
     text-align: center;
+    margin: 10px auto 0 auto;
 }
 .leftArticle{
-    margin: 10px auto;
+    margin: 0px auto;
     width: 60%;
     color: white;
     font-size: larger;
     font-family: SlimJoe;
-    /* background-color: black; */
-    border-radius: 20px;
-    padding: 20px;
+    border-radius: 20px;padding: 20px;
     font-weight: 900;
     opacity: .8;
-    text-align: justify;
+    /* text-align: justify; */
 
 }
 
