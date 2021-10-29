@@ -10,7 +10,6 @@ const Cards = ({ project }) => {
 	// console.log(project);
 	return (
 		<ReactCardFlip isFlipped={isFlipped} flipDirection="horizontal">
-			<div id="FRONT-PARENT">
 			<div
 				onClick={() => setIsFlipped((prev) => !prev)}
 			>
@@ -20,8 +19,6 @@ const Cards = ({ project }) => {
 					<p>{project.type}</p>
 				</div>
 			</div>
-			</div>
-			<div id="BACK-PARENT">
 			<div
 				onClick={() => setIsFlipped((prev) => !prev)}
 				className="CardBack"
@@ -37,7 +34,6 @@ const Cards = ({ project }) => {
 				<a className='projectLink' href={project.link} target='_blank' rel="noreferrer">go to project</a>
 				)}	
 				</div>
-			</div>
 		</ReactCardFlip>
 	);
 };
