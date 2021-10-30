@@ -56,7 +56,8 @@ article span a{
     width: 45px;
     background-image: linear-gradient(white, lightblue );
     padding: 5px;
-    border-radius: 50px;
+    border-radius: 10px;
+    border: 2px solid lightblue;
     margin: 5px;
     transition: all .2s ease-in-out; 
 }

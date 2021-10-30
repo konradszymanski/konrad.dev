@@ -4,36 +4,30 @@ const Circle = () => {
   
      const skills = [
           {
-               icon: 'techIcons/html5.png',
-               percentage: '90'
+               icon: 'techIcons/html5.png'
           },{
-               icon: 'techIcons/css3.png',
-               percentage: '90'
+               icon: 'techIcons/css3.png'
           },{
-               icon: 'techIcons/bootstrap.png',
-               percentage: '70'
+               icon: 'techIcons/bootstrap.png'
           },{
-               icon: 'techIcons/tailwind-css.png',
-               percentage: '60'
+               icon: 'techIcons/tailwind-css.png'
           },{
-               icon: 'techIcons/javascript.png',
-               percentage: '60'
+               icon: 'techIcons/javascript.png'
           },{
-               icon: 'techIcons/react.png',
-               percentage: '30'
+               icon: 'techIcons/react.png'
           },{
-               icon: 'techIcons/rwdFreepik.png',
-               percentage: '95'
+               icon: 'techIcons/shopify.png'
           },{
-               icon: 'techIcons/git.png',
-               percentage: '60'
+               icon: 'techIcons/wordpress-icon.png'
           },{
-               icon: 'techIcons/shopify.png',
-               percentage: '80'
+               icon: 'techIcons/responsive.png',
           },{
-               icon: 'techIcons/wordpress-icon.png',
-               percentage: '70'
-          },
+               icon: 'techIcons/git.png'
+          },{
+               icon: 'techIcons/bulb.png'
+          },{
+               icon: 'techIcons/support.png'
+          }
      ]
      return (
           
