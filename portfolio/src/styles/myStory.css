@@ -90,6 +90,7 @@ article span a{
   }
   .techIcons{
     max-width: 90%;
+    margin-bottom: 25px;
   }
   .techIcons img {
     width: 50px;
