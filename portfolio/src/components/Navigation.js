@@ -1,27 +1,15 @@
-import React from 'react'
-import '../styles/navigation.css'
-import { Link } from 'react-scroll'
+import React from 'react';
+import '../styles/navigation.css';
 
+const Navigation = () => (
+    <nav aria-label="Portfolio sections">
+        <ul>
+            <li id="navList1"><a href="#biography">Bio</a></li>
+            <li id="navList2"><a href="#projects">Projects</a></li>
+            <li id="navList3"><a href="#footer">Contact</a></li>
+        </ul>
+    </nav>
+);
 
-
-const Navigation = () => {
-
-    return (
-        <nav>
-            <ul>
-                <li id='navList1' >
-                    <Link to={'biography'}>Bio</Link>
-                </li>
-                <li id='navList2' >
-                    <Link to={'projects'}>Projects</Link>
-                </li>
-                <li id='navList3' >
-                    <Link to={'footer'}>Contact</Link>
-                </li>
-            </ul>
-        </nav>
-    )
-}
-
-export default Navigation
+export default Navigation;
 
