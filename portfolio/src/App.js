@@ -10,7 +10,6 @@ const groups = [
 const experience = [
   { role: 'Software Developer', company: 'Virtual Trader', dates: 'Nov 2021 — Present', location: 'Coventry, United Kingdom', text: 'Building enterprise financial applications and practical AI capabilities across Oracle APEX, PL/SQL, SQL, JavaScript, React, and REST services.' },
   { role: 'Website Developer', company: 'Acqua Nera LTD', dates: 'Feb 2021 — Nov 2021', location: 'Birmingham, United Kingdom', text: 'Developed and maintained responsive Shopify storefronts, custom Liquid themes, integrations, and SEO improvements.' },
-  { role: 'Web Development Bootcamp', company: 'Generation UK & Ireland', dates: 'Dec 2020 — Jun 2021', location: 'United Kingdom', text: 'Six-month practical programme in web development, JavaScript, React, and software development fundamentals.' },
 ];
 
 const credentials = [
@@ -112,3 +111,4 @@ function App() {
 }
 
 export default App;
+
