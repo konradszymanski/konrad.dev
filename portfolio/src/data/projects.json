@@ -1,81 +1,13 @@
 [
-    {
-    "title": "My travel website",
-    "type": "#Blog / Hostgator",
-    "description": "My first project made from scratch.",
-    "link": "https://konrad.site",
-    "img": "images/konradSiteGif.gif",
-    "tech": "Responsive design",
-    "tech2": "GoogleMaps Api",
-    "tech3": "JS / PHP"
-},
-{
+  {
     "title": "Crypto Comparer",
-    "type": "#Comparer / GH Pages",
-    "description": "Check your favourite crypto..",
+    "type": "Crypto comparison tool",
+    "description": "Compare cryptocurrency prices with live market data from the CoinGecko API.",
     "link": "https://konradszymanski.github.io/Crypto-Compare/",
     "img": "images/cryptoCompare.png",
-    "tech": "Coingecko API",
-    "tech2": "Responsive Design",
-    "tech3": "Html / Css / Js"
-},
-
-{ 
-    "title": "Whack-a-Mole",
-    "type": "#Game / Netlify",
-    "description": "how quick is your reaction?",
-    "link": "https://konrad-whack-a-mole.netlify.app",
-    "img": "images/whackGif.gif",
-    "tech": "Javascript",
-    "tech2": "Flex Box",
-    "tech3": "Css Grid"
-},
-{
-    "title": "Estate Agency",
-    "type": "#Front-Back-end App / Heroku",
-    "description": "Estate agency aplication",
-    "link": "https://estateagencyproject.herokuapp.com",
-    "img": "images/estate.gif",
-    "tech2": "Node JS",
-    "tech": "React JS",
-    "tech3": "API"
-}, 
-{
-    "title": "Watercolour Art ",
-    "type": "#Art Collection / bluehost",
-    "description": "Online painting album for real person",
-    "link": "https://jadwigaszymanska.com",
-    "img": "images/jadwigaGif.gif",
-    "tech2": "Wordpress",
-    "tech": "Responsive Design",
-    "tech3": "Elementor"
-},
-{
-    "title": "Orange Perspective",
-    "type": "#Landing Page / Netlify",
-    "description": "Orange is not a fruit only ;)",
-    "link": "https://orangeblog.netlify.app",
-    "img": "images/orangeGif.gif",
-    "tech": "tailwind",
-    "tech2": "javascript",
-    "tech3": "html"
-},{
-    "title": "Hamburger Mate",
-    "description": "Free for everyone animated hamburger menus collection",
-    "type": "#Open Source Repo/ gh pages",
-    "link": "https://konradszymanski.github.io/HamburgerMate.github.io/",
-    "img": "images/burgerGif.gif",
-    "tech": "Git / GitHub",
-    "tech2": "Javasript",
-    "tech3": "css"
-},{
-    "title": "#150 JS excersises",
-    "description": "My learning path of JS. Task are coded from scratch.",
-    "type": "#Excersises / Netlify",
-    "link": "https://javascript-basics.netlify.app/",
-    "img": "images/excersizes.jpg",
-    "tech": "javascript",
-    "tech2": "bootstrap",
-    "tech3": "html / css"
-}
+    "tech": "CoinGecko API",
+    "tech2": "Responsive design",
+    "tech3": "HTML / CSS / JavaScript"
+  }
 ]
+
