@@ -53,7 +53,7 @@
 {
     "title": "Orange Perspective",
     "type": "#Landing Page / Netlify",
-    "description": "Orange is not a fruit only ;)",
+    "description": "A playful landing page built with Tailwind CSS, JavaScript, and HTML.",
     "link": "https://orangeblog.netlify.app",
     "img": "images/orangeGif.gif",
     "tech": "tailwind",
@@ -79,3 +79,4 @@
     "tech3": "html / css"
 }
 ]
+
