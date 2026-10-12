@@ -1,0 +1,16 @@
+.credential-name {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 9px;
+  transition: color .2s;
+}
+
+.credential-name:hover {
+  color: var(--accent);
+}
+
+.credential-name span {
+  color: var(--accent);
+  font-size: 11px;
+}
+
