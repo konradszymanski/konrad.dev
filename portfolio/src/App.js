@@ -1,5 +1,6 @@
 import React from 'react';
 import Data from './data/projects.json';
+import './styles/certifications.css';
 
 const groups = [
   { title: 'Enterprise engineering', items: ['Oracle APEX', 'PL/SQL', 'SQL', 'Oracle Database', 'ORDS', 'REST APIs', 'Financial software'] },
@@ -13,12 +14,15 @@ const experience = [
 ];
 
 const credentials = [
-  ['Oracle Fusion AI Agent Studio Foundations Associate', 'Oracle · Feb 2026'],
-  ['AI_devs 3 — Agents Reloaded', 'AI_devs · Jun 2025'],
-  ['Oracle AI Vector Search Certified Professional', 'Oracle · Apr 2025'],
-  ['OCI Generative AI Certified Professional', 'Oracle · Jun 2024'],
-  ['Oracle APEX Cloud Developer Certified Professional', 'Oracle · Jul 2023'],
-  ['Oracle APEX: Foundations', 'Oracle · Oct 2022'],
+  { name: 'Oracle Fusion AI Agent Studio Certified Foundations Associate', issuer: 'Oracle · Feb 2026', href: 'https://catalog-education.oracle.com/pls/certview/sharebadge?id=3B304ACAD656B8B2BE82273C05DFFBAA9E5798A6B3E65675A484C9490B90F7FE' },
+  { name: 'AI_devs 3 — Agents Reloaded', issuer: 'AI_devs · Jun 2025', href: 'https://credsverse.com/credentials/f82b8184-3c2a-446a-ab39-2f1e435d1054' },
+  { name: 'Oracle AI Vector Search Certified Professional', issuer: 'Oracle · Apr 2025 · Valid to Apr 2027', href: 'https://catalog-education.oracle.com/pls/certview/sharebadge?id=345F2F34C641D3E2816422886D456894CDB738E00A12A7A9D6523CFCB64D55F2' },
+  { name: 'Oracle Cloud Infrastructure 2024 Generative AI Certified Professional', issuer: 'Oracle · Jun 2024 · Expired Jun 2026', href: 'https://catalog-education.oracle.com/pls/certview/sharebadge?id=9208982C13C83A5651556E40DFF80B3FDAD601DE47CF76F6FAF886357EB48556' },
+  { name: 'Postman: The Complete Guide — REST API Testing', issuer: 'Udemy · Mar 2024', href: 'https://www.udemy.com/certificate/UC-f9d3b003-6eb5-4552-ab1d-5aa2aabd3a14/' },
+  { name: 'Oracle Cloud Infrastructure 2023 AI Certified Foundations Associate', issuer: 'Oracle · Dec 2023 · Expired Dec 2025', href: 'https://catalog-education.oracle.com/pls/certview/sharebadge?id=7A35E04DB27881B5480C0CEDCA6EB354C53396DC8FA135AEE9FEC159E0CBE52C' },
+  { name: 'Oracle Cloud Infrastructure 2023 Certified Foundations Associate', issuer: 'Oracle · Jul 2023 · Expired Jul 2025', href: 'https://catalog-education.oracle.com/pls/certview/sharebadge?id=64459BA4EE5783552D284EE5622B137ADB2301CCA8D60E8C2117433559DE8480' },
+  { name: 'Oracle APEX Cloud Developer Certified Professional', issuer: 'Oracle · Jul 2023' },
+  { name: 'Oracle APEX: Foundations', issuer: 'Oracle · Oct 2022' },
 ];
 
 const privateWork = [
@@ -97,7 +101,7 @@ function App() {
 
         <section className="credentials section-wrap">
           <div className="section-kicker"><span>06</span><span>CERTIFICATIONS</span></div><h2>Learning that<br /><em>keeps moving.</em></h2>
-          <ul className="credential-list">{credentials.map(([name, issuer]) => <li key={name}><span>{name}</span><small>{issuer}</small></li>)}</ul>
+          <ul className="credential-list">{credentials.map((credential) => <li key={credential.name}>{credential.href ? <a className="credential-name" href={credential.href} target="_blank" rel="noreferrer">{credential.name}<span aria-hidden="true">↗</span></a> : <span>{credential.name}</span>}<small>{credential.issuer}</small></li>)}</ul>
         </section>
 
         <section className="contact section-wrap" id="contact">
