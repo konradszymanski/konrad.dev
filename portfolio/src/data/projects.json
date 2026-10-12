@@ -8,6 +8,16 @@
     "tech": "CoinGecko API",
     "tech2": "Responsive design",
     "tech3": "HTML / CSS / JavaScript"
+  },
+  {
+    "title": "Country Atlas",
+    "type": "Interactive comparison app",
+    "description": "Compare country facts side by side, then explore sourced history chapters by era or year.",
+    "link": "https://country-atlas.pages.dev/",
+    "img": "images/countryAtlas.svg",
+    "tech": "JavaScript",
+    "tech2": "Country data & Wikipedia API",
+    "tech3": "HTML / CSS · Cloudflare Pages"
   }
 ]
 
