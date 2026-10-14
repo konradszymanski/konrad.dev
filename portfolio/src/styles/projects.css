@@ -37,7 +37,7 @@
     font-family: SlimJoe;
     color: white;
     min-height: 250px;
-    cursor: pointer;
+    cursor: default;
     border-radius: 10px;
 }
 .CardBack h3,
@@ -101,3 +101,19 @@
         height: 300px;
     }
   }
+
+.projectCard { min-width: 0; }
+.cardToggle {
+    padding: 10px 14px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 8px;
+    color: white;
+    background: transparent;
+    cursor: pointer;
+    font: inherit;
+}
+.cardToggle:focus-visible, .projectLink:focus-visible {
+    outline: 3px solid #ffe66d;
+    outline-offset: 3px;
+}

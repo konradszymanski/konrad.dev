@@ -16,6 +16,7 @@ const NextSection = () => {
         <div>
         <button
             id='nextSetion'
+            aria-label='Scroll to the next section'
             className='nextSection'
             onClick={scrollMoreDown}
         >

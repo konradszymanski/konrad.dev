@@ -1,24 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../styles/header.css'
 import Navigation from './Navigation';
 import NextSection from './NextSection';
 
 
-setTimeout(function () {
-    document.getElementById('element1').style.opacity = '1';
-}, 1000);
-setTimeout(function () {
-    document.getElementById('element2').style.opacity = '1';
-}, 1500);
-setTimeout(function () {
-    document.getElementById('element3').style.opacity = '1';
-}, 2000);
-setTimeout(function () {
-    document.getElementById('element4').style.opacity = '1';
-}, 2500);
-
-
 const Header = () => {
+    useEffect(() => {
+        const timers = ['element1', 'element2', 'element3', 'element4'].map((id, index) =>
+            setTimeout(() => {
+                const element = document.getElementById(id);
+                if (element) element.style.opacity = '1';
+            }, 1000 + index * 500)
+        );
+        return () => timers.forEach(clearTimeout);
+    }, []);
+
     return (
         <header> 
             <section id='starter'>
