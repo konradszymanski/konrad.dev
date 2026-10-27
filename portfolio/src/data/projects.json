@@ -3,7 +3,7 @@
     "title": "Crypto Comparer",
     "type": "Crypto comparison tool",
     "description": "Compare cryptocurrency prices with live market data from the CoinGecko API.",
-    "link": "https://konradszymanski.github.io/Crypto-Compare/",
+    "link": "https://crypto-atlas.pages.dev/",
     "img": "images/cryptoCompare.png",
     "tech": "CoinGecko API",
     "tech2": "Responsive design",
@@ -20,4 +20,3 @@
     "tech3": "HTML / CSS · Cloudflare Pages"
   }
 ]
-
